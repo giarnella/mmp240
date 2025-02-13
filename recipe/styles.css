@@ -1,17 +1,50 @@
 /*Recipe CSS Styles*/
-h1 {color: #ED684A;
-    width: 400px;
-    background-color:darkmagenta;
-    border:2px solid yellowgreen;
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap');
+
+body{
+background-color: #F0EEC0;
+width: 1000px;
+margin: 20px;
+margin-left: auto;
+margin-right: auto;
+padding: 25px;
+border: dotted 3px #26652E;
+
+}
+h1 {
+    font-family: "Sacramento", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #B21E13;
+    width: 600px;
     text-align: center;
-    padding: 20px;
-    margin: 20px auto;
+    border: solid 3px #26652E;
+    padding: 10px;
+    margin: 25px auto;
 }
 
-h4 { text-align: center;
+h3,h2 { 
+    color: #B21E13;
+    font-family: "Italiana", sans-serif;
+    text-transform: uppercase;
+   
 
 }
+h3{
+    text-align: center;
+    
+}
 
+ul,ol,li,p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+img{
+    width: 400px;
+    border-radius: 20px;
+}
 /*body text*/
 
 
