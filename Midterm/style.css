@@ -1,0 +1,37 @@
+
+
+
+
+#wrapper{
+    width:1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+header{
+    padding: 4em 2em;
+    background:
+    linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0) 100%),
+    url("images/banner.png") no-repeat 300px top, 
+    #000;
+
+
+}
+
+.bannerText{
+    color: #fff;
+    width: 45%;
+    
+
+}
+
+.btn{
+    color:#fff;
+    background-color: rgb(255, 72, 0);
+    text-decoration: none;
+    padding: 0.5em; 1em;
+    border-radius: 10px;
+    display:inline-block;
+
+}
