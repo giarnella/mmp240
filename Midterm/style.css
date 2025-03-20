@@ -17,7 +17,7 @@ body{
 
 
 #wrapper{
-    width:1200px;
+    max-width:1280px;
     margin-right: auto;
     margin-left: auto;
 
@@ -25,6 +25,7 @@ body{
 
 header{
     padding: 4em 2em;
+    
     background:
     linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0) 100%),
     url("images/banner.png") no-repeat 300px top, 
@@ -110,6 +111,8 @@ footer{
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
+    
+    
 }
 
 .episode-card{
@@ -118,19 +121,25 @@ footer{
     margin-right:30px;
     margin-bottom:30px;
     /*border:solid .75px #ddd;*/
-    padding: .93em
+    flex:1 1 1;   /* flow-grow, flex-shrink, flex-basis*/
+    
+    
 }
 
 .episode-card :first-child{
     margin-left: 17px;
 }
 
-.episode-card:last-child{
-    margin-right:0;
-}
 
 .episode-card img{
     width:100%;
 
 }
+
+.episode-card, p, h4{
+    padding-right: 1.55em;
+    padding-left: 1.55em;
+}
+
+
 
