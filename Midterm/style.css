@@ -165,6 +165,11 @@ footer{
 
 }
 
+
+footer{
+    margin-top:150px;
+}
+
 /*.episode-card p, .episode-card h4, h6 {
     padding-right: 1.55em;
     padding-left: 1.55em;*/
@@ -173,5 +178,5 @@ footer{
 
 
 @media screen and (max-width: 660px){
-    
+
 }
