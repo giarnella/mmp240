@@ -136,11 +136,12 @@ footer{
 }
 
 .episode-card{
-    padding: 10px;
+    padding: 15px;
     width:240px;
-    margin-right:30px;
+    margin-right:20px;
     margin-bottom:30px;
     justify-content: center;
+    border:solid .05rem #ababab;
     flex:1 1 1;    /*flow-grow, flex-shrink, flex-basis*/
     
     
@@ -167,9 +168,6 @@ footer{
     margin-top:150px;
 }
 
-/*.episode-card p, .episode-card h4, h6 {
-    padding-right: 1.55em;
-    padding-left: 1.55em;*/
 
 
 
