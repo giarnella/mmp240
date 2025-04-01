@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+input, textarea{
+    display:block;
+    margin-bottom:1em;
+}
+
+.btn_submit{
+padding: 0.5em, 1e,;
+border-radius:0;
+background-color: brown;
+color: #fff;
+text-transform: uppercase;
+
+select, option{
+padding: 0.5em, 1e,;
+border-radius:0;
+background-color: rgb(107, 90, 90);
+color: #fff;
+text-transform: uppercase;
+}
+
+}
+
+
+    </style>
+</head>
+<body>
+  
+<form action="#" method="post">
+    <label>Select a date for your appointment<input type="date" name="date"></label>
+    
+
+    <label>Select Appointment Location<br><select name="Borough"></label>
+        <option>bronx</option>
+        <option>brooklyn</option>
+        <option>queens</option>
+        <option>manhattan</option>
+        <option>staten island</option>
+    </select>
+
+    <textarea name="bio" cols="20" rows="10"> </textarea>
+    <input class="btn_submit"  type="submit" name="submit" value="send">
+
+   
+
+
+</form> 
+
+
+
+
+
+
+
+</body>
+</html>
