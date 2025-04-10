@@ -1,6 +1,8 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin:16px;
 }
 
 h1{
@@ -9,16 +11,60 @@ h1{
 }
 
 header{
+    position: relative;
     display:flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
+
+/*top navigation*/
 
 #top-nav{
-    display:none;
+    /*display:none;*/
+    position:absolute;
+    right: 10px;
+    top:50px;
+    border:solid 2px;
+    padding:10px;
+    
+
 }
 
-.top-nav.top-nav:click{
-    display:
+#top-nav ul a{
+    padding:0;
+    list-style-type: none;
+    margin:0;
 }
+
+#top-nav li{
+    display:block;
+    padding:5px;
+    border-bottom: solid 1px #000;
+}
+
+.material-symbols-outlined{
+    float:right;
+
+}
+
+li.dropdown ul{
+    display:none;
+    
+    /*position:absolute;*/
+}
+
+li.dropdown:hover ul{
+    display:block;
+    
+}
+
+.dropdown{
+    background-color: aquamarine;
+    margin-bottom: 1em;
+}
+
+.dropdown ul{
+    background-color: #fff;
+}
+
