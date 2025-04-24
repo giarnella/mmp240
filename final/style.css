@@ -3,11 +3,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1200px;
     margin:16px;
+    background-color: #FDF9E1;
 }
 
 .btn{
     color:#fff;
-    background-color: blue;
+    background-color: #FCCCFF;
     text-decoration:none;
     padding: 0.5em 1em;
     border-radius:10px;
@@ -32,6 +33,7 @@ header{
 nav li{
 padding:0;
 list-style-type: none;
+border-radius:8px;
 }
 
 #top-nav{
@@ -49,6 +51,7 @@ list-style-type: none;
     padding:5px;
     display:block;
     border-bottom: solid 1px #000;
+    text-decoration: none;
 }
 
 #top-nav li{
@@ -82,12 +85,23 @@ li.dropdown:hover ul{
 }
 
 .dropdown{
-    background-color: aquamarine;
+    background-color: #E03091;
     margin-bottom: 1em;
+    /*padding:10px;*/
+    
+}
+
+.dropdown a{
+    text-decoration: none;
+    /*padding:10px;
+    margin:10px;*/
+    color:#fff;
+    
 }
 
 .dropdown ul{
-    background-color: #fff;
+    background-color: #E03091;
+
 }
 
 /*typography design*/
@@ -118,36 +132,56 @@ article{
 }
 
 .hero h3 {font-size:1rem;
+    
 }
 
 .hero{
-    background: url("img/queens2.jpg") no-repeat center;
-    padding:2em;
+    /*background: url("img/hero2.jpg")*/
+    border-radius: 10px;
+    padding:6em 2em;
     color:white;
     margin-bottom: 2em;
     margin-top: 2em;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 43%, rgba(90, 158, 231, 1) 100%),
+    url("img/hero2.jpg") no-repeat center, 
+    #000;
 }
 
 .hero p{
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     padding:1em;
+    width:45%;
+    margin-right:120px
+    
+
 }
 
 article img{
     max-width:100%
 }
 
+
+
+
+
+
+
+
 /*media query*/
 
-@media (min-wdth:768px)
+@media (min-width:768px){
+
 .material-symbols-outlined{
     display:none;
+
 }
 
 #top-nav{
     display:flex;
     position:static;
     border:none;
+    align-items: center;
 }
 
 #top-nav ul{
@@ -155,7 +189,43 @@ article img{
     align-items: center;
 }
 
-#top-nav li{
-    margin:0 1em;
+#top-nav ul a{
+    padding:1em;
+    border-bottom:none;
 
 }
+
+#top-nav li{
+    border-bottom: none;
+}
+
+.programs-menu{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    
+}
+
+.dropdown:hover{
+    width:30%
+}
+
+.dropdown{
+    border-radius: 10px 10px 0px;
+}
+
+.dropdown ul{
+    position:absolute;
+    width: 30%;
+    
+}
+
+/*MAIN GRID*/
+
+.home main{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:2em;
+}
+}
+/*end of media query*/
