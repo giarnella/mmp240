@@ -49,6 +49,7 @@ border-radius:8px;
     border:solid 2px;
     padding:10px;
     
+    
 
 }
 
@@ -57,6 +58,7 @@ border-radius:8px;
     display:block;
     border-bottom: solid 1px #000;
     text-decoration: none;
+    background-color: #fff;
 }
 
 #top-nav li{
@@ -148,6 +150,10 @@ article{
     
 }
 
+.material-symbols-outlined{
+    color: #fff;
+}
+
 .articleone{
     background-color: #AF86F1;
     padding:10px;
@@ -170,7 +176,6 @@ article{
 }
 
 .hero{
-    /*background: url("img/hero2.jpg")*/
     border-radius: 10px;
     padding:6em 2em;
     color:white;
@@ -185,9 +190,7 @@ article{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding:1em;
-    width:45%;
-    margin-right:120px
-    
+    width:75%;  
 
 }
 
@@ -262,6 +265,10 @@ article img{
     width: 32%;
 }
 
+
+#top-nav ul a{
+    background-color:#FDF9E1;
+}
 /*MAIN GRID*/
 
 .home main{
@@ -270,6 +277,8 @@ article img{
     grid-gap:2em;
 }
 }
+
+
 /*end of media query*/
 
 
