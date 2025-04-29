@@ -6,8 +6,13 @@ body{
     background-color: #FDF9E1;
 }
 
+nav ul{
+    padding:0;
+    margin:0;
+}
+
 .btn{
-    color:#fff;
+    color:#000000;
     background-color: #FCCCFF;
     text-decoration:none;
     padding: 0.5em 1em;
@@ -65,6 +70,15 @@ border-radius:8px;
 
 }
 
+/*choose a program*/
+
+.programs-nav{
+    background-color: #FFDB2A;
+    padding:15px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
 .dropdown ul{
     background-color: #fff;
     display: none;
@@ -75,17 +89,13 @@ li.dropdown ul{
 }
 
 
-    
-    /*position:absolute;*/
-
-
 li.dropdown:hover ul{
     display:block;
     
 }
 
+
 .dropdown{
-    background-color: #E03091;
     margin-bottom: 1em;
     /*padding:10px;*/
     
@@ -95,13 +105,15 @@ li.dropdown:hover ul{
     text-decoration: none;
     /*padding:10px;
     margin:10px;*/
+    background-color: #E03091;
+    display:block;
     color:#fff;
     
 }
 
 .dropdown ul{
     background-color: #E03091;
-
+    
 }
 
 /*typography design*/
@@ -132,7 +144,29 @@ article{
 }
 
 .hero h3 {font-size:1rem;
+
     
+}
+
+.articleone{
+    background-color: #AF86F1;
+    padding:10px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.articletwo{
+    background-color: #D2D904;
+    padding:10px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.articlethree{
+    background-color: #E03091;
+    padding:10px;
+    border: solid;
+    border-radius: 10px;
 }
 
 .hero{
@@ -210,14 +244,22 @@ article img{
     width:30%
 }
 
-.dropdown{
+.dropdown a{
     border-radius: 10px 10px 0px;
+    padding: .5em;
+    
+    
 }
 
 .dropdown ul{
     position:absolute;
     width: 30%;
+    border-radius: 10px 10px 10px 10px;
     
+}
+
+.dropdown{
+    width: 32%;
 }
 
 /*MAIN GRID*/
@@ -229,3 +271,13 @@ article img{
 }
 }
 /*end of media query*/
+
+
+/*main grid*/
+
+.home main{
+    display:grid;
+    grid-template-columns: minmax(500px, 1fr) 300px;
+    grid-gap:2em;
+
+}
