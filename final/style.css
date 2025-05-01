@@ -113,10 +113,13 @@ li.dropdown:hover ul{
     
 }
 
-.dropdown ul{
+.dropdown ul {
     background-color: #E03091;
+    border-radius: 10px 10px 10px 10px;
     
 }
+
+
 
 /*typography design*/
 
@@ -198,11 +201,56 @@ article img{
     max-width:100%
 }
 
+/*Program Cards*/
+
+.card{
+    border:solid 2px #757677;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition-property: box-shadow, transofmr;
+    transition-duration: .5s;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 8px rgb(153, 153, 153);       /* x shift, y shift, blur, color */
+    transform:rotate(1deg);
+    
+
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body{
+    padding:1em;
+}
+
+.card h3{
+    font-size:.5em;
+    text-transform: uppercase;
+    margin-bottom:0;
+}
+
+.card h2{
+    font-size: 1.2em;
+}
 
 
+/*Utility Classes*/
 
+.responsive-img{
+    width:100%
+}
 
+.no-underline{
+    text-decoration:none;
+}
 
+.black-color{
+    color:#000000;
+}
 
 
 /*media query*/
