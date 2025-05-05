@@ -207,7 +207,7 @@ article img{
     border:solid 2px #757677;
     border-radius: 10px;
     margin-top: 10px;
-    transition-property: box-shadow, transofmr;
+    transition-property: box-shadow;
     transition-duration: .5s;
     
 }
