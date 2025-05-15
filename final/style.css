@@ -46,13 +46,15 @@ border-radius:8px;
 }
 
 #top-nav{
-   display:none;
     position:absolute;
+    top:-200px;
     right:0px;
     top:50px;
     border:solid 2px;
     padding:10px;
     background-color: #fff;
+    border-color:#000000;
+    transition: top .3s ease-in;
 
 }
 
@@ -275,6 +277,9 @@ article img{
     color:#000000;
 }
 
+footer{
+    margin-top:5em;
+}
 
 /*media query*/
 
