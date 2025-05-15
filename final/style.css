@@ -33,6 +33,10 @@ header{
     
 }
 
+.mobile-nav{
+    background-color: #000000;
+}
+
 /*top navigation*/
 
 nav li{
@@ -59,7 +63,7 @@ border-radius:8px;
     display:block;
     border-bottom: solid 1px #000;
     text-decoration: none;
-    background-color: #fff;
+    
 
 }
 
@@ -217,12 +221,13 @@ article img{
     margin-top: 10px;
     transition-property: box-shadow;
     transition-duration: .5s;
+    background-color: #fff;
     
 }
 
 .card:hover{
     box-shadow: 5px 5px 8px rgb(153, 153, 153);       /* x shift, y shift, blur, color */
-    /*transform:rotate(1deg);*/
+    transform:rotate(1deg);
     
 
 }
@@ -270,18 +275,23 @@ article img{
 
 }
 
+body{
+    margin-bottom:5em;
+}
 
 #top-nav{
     display:flex;
     position:static;
     border:none;
     align-items: center;
+    background-color: none;
     
 }
 
 #top-nav ul{
     display:flex;
     align-items: center;
+    
     
 }
 
@@ -299,6 +309,7 @@ article img{
 
 #top-nav ul li{
     border-bottom: none;
+    
     
 }
 
@@ -335,10 +346,6 @@ article img{
     width: 32%;
 }
 
-
-#top-nav ul a{
-    background-color:#FDF9E1;
-}
 
 
 
