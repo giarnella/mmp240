@@ -67,6 +67,9 @@ border-radius:8px;
 
 }
 
+#top-nav ul a:visited{
+    color:black;
+}
 #top-nav li{
     display:block;
     padding:5px;
@@ -206,6 +209,13 @@ article{
     border-radius: 10px;
     padding:1em;
     width:75%;  
+
+}
+.events article{
+    background-color:#AF86F1;
+    border-radius: 10px;
+    border:solid;
+    padding:1em;
 
 }
 
