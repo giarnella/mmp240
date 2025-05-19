@@ -26,12 +26,16 @@ body{
 
 .classwork-card ul a:visited{
     color:black;
-    text-decoration: none;
+    
 }
 
 .classwork-card ul a{
     text-decoration: none;
 
+}
+
+.classwork-card ul a:hover{
+    text-decoration: underline;
 }
 
 .classwork-card ul li{
