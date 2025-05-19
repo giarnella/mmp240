@@ -24,6 +24,20 @@ body{
     flex:1 1 1;    /*flow-grow, flex-shrink, flex-basis*/
 }
 
+.classwork-card ul a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+.classwork-card ul a{
+    text-decoration: none;
+
+}
+
+.classwork-card ul li{
+    padding:5px;
+}
+
 .aboutme{
     background-color: rgb(152, 172, 152);
     padding:2em;
@@ -31,7 +45,6 @@ body{
     margin-right:8em;
     margin-bottom:3em;
     border-style:dotted;
-    border
     
 }
 
@@ -59,8 +72,17 @@ nav a{
 }
 
 
-h2, h3{
+h3 {
     text-align: center;
+    color:azure;
+    text-transform: uppercase;
+    text-shadow: #000000;
+}
+
+h2{
+    text-align:center;
+    text-transform: uppercase;
+    
 }
 
 .img-container{
