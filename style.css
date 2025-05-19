@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(233, 233, 225);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    margin-bottom: 3em;
+}
+
+.portfolio{
+    display:flex;
+    flex-direction: row;
+    padding:3em;
+    
+}
+
+.classwork-card{
+    background-color: rgb(167, 193, 201);
+    border-radius: 10px;
+    padding: 30px;
+    width:280px;
+    margin-right:170px;
+    margin-bottom:30px;
+    justify-content: center;
+    border:solid .05rem #000000;
+    flex:1 1 1;    /*flow-grow, flex-shrink, flex-basis*/
+}
+
+.aboutme{
+    background-color: rgb(152, 172, 152);
+    padding:2em;
+    margin-left:8em;
+    margin-right:8em;
+    margin-bottom:3em;
+    border-style:dotted;
+    border
+    
+}
+
+img{
+   align-items: center;
+}
+
+
+
+nav li{
+    display:block;
+    margin-right:5em;
+    padding-bottom:10px;
+    padding-right: 30px;
+   
+    
+
+}
+
+nav a{
+    display:inline-block;
+    padding: 0.75em 2em;
+    text-decoration: none;
+    color:black;
+}
+
+
+h2, h3{
+    text-align: center;
+}
+
+.img-container{
+    text-align: center;
+}
+
+.image{
+    width:200;
+    height:auto;
+    display:inline-block;
+}
