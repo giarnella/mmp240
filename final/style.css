@@ -125,6 +125,10 @@ li.dropdown:hover ul{
     
 }
 
+li.dropdown ul a:hover{
+    background-color:#AF86F1
+}
+
 
 .dropdown{
     margin-bottom: 1em;
