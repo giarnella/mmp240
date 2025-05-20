@@ -13,11 +13,15 @@ nav ul{
 
 .btn{
     color:#000000;
-    background-color: #FCCCFF;
+    background-color:#D2D904;
     text-decoration:none;
     padding: 0.5em 1em;
     border-radius:10px;
     display:inline-block;
+}
+
+.btn:hover{
+    background-color:#779e03;
 }
 
 h1{
@@ -35,6 +39,15 @@ header{
 
 .mobile-nav{
     background-color: #000000;
+}
+
+.more{
+    
+    color:#FDF9E1
+}
+
+.more a:visited{
+    color:#FDF9E1;
 }
 
 /*top navigation*/
@@ -140,12 +153,16 @@ li.dropdown:hover ul{
 /*typography design*/
 
 h1{
-    font-size:1rem;
+    font-size:1.5em;
+    text-align: center;
     text-transform: uppercase;
+    
 }
 
 h2{
     font-style: italic;
+    font-size:2em;
+    
 }
 
 h1 a{
@@ -207,6 +224,8 @@ article{
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 43%, rgba(90, 158, 231, 1) 100%),
     url("img/hero2.jpg") no-repeat center, 
     #000;
+
+    
 }
 
 .hero p{
@@ -232,6 +251,7 @@ article img{
     background-color: #D2D904;
 }
 
+
 /*Program Cards*/
 
 .card{
@@ -241,6 +261,8 @@ article img{
     transition-property: box-shadow;
     transition-duration: .5s;
     background-color: #fff;
+    
+    
     
 }
 
@@ -341,6 +363,11 @@ body{
     
 }
 
+#top-nav ul li a:hover{
+    background-color: #D2D904;
+}
+
+
 .hero{
     padding:4em 2em;
 }
@@ -392,6 +419,7 @@ body{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     grid-gap:1em;
+    margin:20px;
 }
 
 .card{
